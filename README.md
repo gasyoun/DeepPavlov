@@ -1,3 +1,5 @@
+_Created: 17-11-2017 · Last updated: 05-09-2026_
+
 [![License Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/deepmipt/DeepPavlov/blob/master/LICENSE)
 ![Python 3.6, 3.7](https://img.shields.io/badge/python-3.6%20%7C%203.7-green.svg)
 [![Downloads](https://pepy.tech/badge/deeppavlov)](https://pepy.tech/project/deeppavlov)
@@ -231,7 +233,7 @@ and others in the Integrations section for more info.
 ## Breaking Changes
 
 **Breaking changes in version 0.7.0**
-- in dialog logger config file [dialog_logger_config.json](deeppavlov/utils/settings/dialog_logger_config.json) `agent_name` parameter was renamed to `logger_name`,
+- in dialog logger config file [dialog_logger_config.json](https://github.com/gasyoun/DeepPavlov/blob/master/deeppavlov/utils/settings/dialog_logger_config.json) `agent_name` parameter was renamed to `logger_name`,
   the default value was changed
 - Agent, Skill, eCommerce Bot and Pattern Matching classes were moved to [deeppavlov.deprecated](deeppavlov/deprecated)
 - [AIML Skill](http://docs.deeppavlov.ai/en/0.7.0/features/skills/aiml_skill.html),
@@ -240,7 +242,7 @@ and others in the Integrations section for more info.
   [Amazon Alexa](http://docs.deeppavlov.ai/en/0.7.0/integrations/amazon_alexa.html),
   [Microsoft Bot Framework](http://docs.deeppavlov.ai/en/0.7.0/integrations/ms_bot.html) and
   [Telegram integration](http://docs.deeppavlov.ai/en/0.7.0/integrations/telegram.html) interfaces were changed
-- `/start` and `/help` Telegram messages were moved from `models_info.json` to [server_config.json](deeppavlov/utils/settings/server_config.json)
+- `/start` and `/help` Telegram messages were moved from `models_info.json` to [server_config.json](https://github.com/gasyoun/DeepPavlov/blob/master/deeppavlov/utils/settings/server_config.json)
 - [risesocket](http://docs.deeppavlov.ai/en/0.7.0/integrations/socket_api.html) request and response format was changed
 - [riseapi](http://docs.deeppavlov.ai/en/0.7.0/integrations/rest_api.html#advanced-configuration) and
   [risesocket](http://docs.deeppavlov.ai/en/0.7.0/integrations/socket_api.html#advanced-configuration) model-specific
@@ -304,3 +306,5 @@ at [MIPT](https://mipt.ru/english/) within [iPavlov](http://ipavlov.ai/) project
 <p align="center">
 <img src="docs/_static/ipavlov_footer.png" width="50%" height="50%"/>
 </p>
+
+_Dr. Mārcis Gasūns_
